@@ -17,8 +17,8 @@ defmodule TechnicalTest do
 
       iex(1)> TechnicalTest.transform("10 + 25 - 125 * 2 - 4 + 89")
       -95.0
-
-  Optionally the `one/2` function receives as second parameter the list of associations to be loaded
+  
+  Optionally you can add the order to interpret the sentence `:forward` or `:reverse`
   ## Example
 
       iex(1)> TechnicalTest.transform("10 + 25 - 125 * 2 - 4 + 89", :reverse)
